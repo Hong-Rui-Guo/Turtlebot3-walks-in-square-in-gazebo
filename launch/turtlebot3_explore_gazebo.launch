@@ -1,5 +1,8 @@
 <launch>
   <!-- turtlebot3_teleop_key already has its own built in velocity smoother -->
+  <!--node pkg="turtlebot3_explore_gazebo" type="turtlebot3_explore_gazebo.py" name="turtlebot3_square"  output="screen">
+  </node-->
+
   <node pkg="turtlebot3_explore_gazebo" type="turtlebot3_explore_gazebo_2.py" name="turtlebot3_square"  output="screen">
   </node>
 
