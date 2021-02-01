@@ -109,7 +109,6 @@ if __name__=="__main__":
             twist_str = "finish"
             rospy.loginfo(twist_str)
             # print('test')
-
             break
 
 
